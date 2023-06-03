@@ -1,5 +1,5 @@
 {
-  "name": "worker-otel",
+  "name": "worker-wrangler3-otel-test",
   "version": "0.0.0",
   "private": true,
   "scripts": {
