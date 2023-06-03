@@ -16,7 +16,7 @@ const handler = {
 const config: PartialTraceConfig = {
   exporter: {
     url: 'https://api.honeycomb.io',
-    headers: { // TODO use the simple way for testing
+    headers: { // use the simple way for testing
       'x-honeycomb-team': 'SECRET',
     },
   },
