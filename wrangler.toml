@@ -1,0 +1,3 @@
+name = "worker-otel"
+main = "src/worker.ts"
+compatibility_date = "2023-06-03"
