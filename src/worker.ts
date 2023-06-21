@@ -1,4 +1,4 @@
-import { PartialTraceConfig, instrument } from '@microlabs/otel-cf-workers';
+import { TraceConfig, instrument } from '@microlabs/otel-cf-workers';
 
 export interface Env {}
 
@@ -13,7 +13,7 @@ const handler = {
   },
 };
 
-const config: PartialTraceConfig = {
+const config: TraceConfig= {
   exporter: {
     url: 'https://api.honeycomb.io',
     headers: { // use the simple way for testing
